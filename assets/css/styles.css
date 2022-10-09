@@ -1,0 +1,32 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #0095da;
+  margin: 0 auto;
+  padding-inline: 1px;
+}
+.br {
+  border-radius: 12px;
+}
+.bg-cs {
+  background-color: #e4e4e4;
+}
+.fs-cs {
+  font-size: 9pt;
+}
+.ct {
+  background: #a5a1a1;
+}
+.teks-title {
+  font-family: "Goldman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 66px;
+  color: #0095da;
+}
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+}
