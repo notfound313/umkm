@@ -1,11 +1,13 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georama", sans-serif;
 }
 body {
   background-color: #0095da;
   margin: 0 auto;
   padding-inline: 1px;
+  height: 100%;
 }
+
 .br {
   border-radius: 12px;
 }
@@ -29,4 +31,14 @@ body {
 .card {
   background: #ffffff;
   border-radius: 12px;
+}
+#footer {
+  background: #f0f0f0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  width: 100%;
 }
