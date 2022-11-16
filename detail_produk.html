@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/stylesheet-ds.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" <!-- Font google-- />
+    <!--Georama-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+    <!-- Goldman-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- Navigator-->
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid d-flex justify-content-center">
+        <a class="navbar-brand p-2">Produk UMKM</a>
+        <form class="d-flex flex-sm-fill me-2 p-2" role="search">
+          <input class="form-control border-0 p-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn btn-sharp btn-outline-light" type="submit"><span class="fa fa-search"></span></button>
+        </form>
+        <button type="button" class="btn btn-primary position-relative mx-5">
+            <span class="bi bi-cart3 position-relative" style="font-size: 25px; color: floralwhite">
+                <span class="position-absolute  top-0 start-100 translate-middle badge rounded-pill bg-secondary" style="width: 30px; font-size: small;">+99 <span class="visually-hidden ">unread messages</span></span>
+            </span>             
+          </button>
+          <button type="button" class="btn btn-primary position-relative mx-5" >
+            <span class="bi bi-envelope position-relative" style="font-size: 25px; color: floralwhite" >
+            <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger" ><span class="visually-hidden">unread messages</span></span>
+            </span>             
+          </button>
+        
+        
+        <button type="button" class="btn btn-primary" onclick="window.location.href='user_profil/profil_user.html'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          </svg>
+          Account
+        </button>
+        
+    </nav>
+    <!--CONTENT sponsor-->
+    <div class="container pt-4 px-4">
+      <div class="card mt-4 mb-4 border-0" style="background-color:#F5F5F5 ;">
+        <div class="d-flex">
+          <img class="m-3 rounded w-25" src="/assets/img/jajan.png" alt="produk"/>
+          <div class="ml-3 w-70">
+            <h4 class="mt-3 fs-3">Keripik Tempe</h4>
+                 <span class="pt-3 fs-5">Rp. 2000,0000</span>
+                 <p class="text-muted mt-2">Stok: 100</p>
+                 <div class="d-flex" >
+                  <h6 class="me-3"> Keranjang</h6>
+                  <div class="input-group input-spinner  mb-3" style="width: 120px;"> 
+                    <button class="btn btn-sm btn-icon btn-secondary " type="button"> 
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="#999" viewBox="0 0 24 24"> 
+                        <path d="M19 13H5v-2h14v2z"></path> </svg> </button> <input class="form-control text-center form-control-sm " placeholder="" value="14">
+                         <button class="btn btn-icon btn-secondary btn-sm" type="button"> 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="#999" viewBox="0 0 24 24"> <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path> </svg> </button> </div>
+                 </div>  
+                 <div class="row row-cols-auto gx-2 gy-3 ml-1 align-items-center mt-1">
+                  <div class="me-3"> <a href="#" class="btn btn-primary"> <i class="fa fa-shopping-cart me-1"></i> Add to cart </a> </div>
+                  <button type="button" class="btn btn-secondary">Beli</button>
+                 </div>               
+          </div>
+        </div>
+        <div class="container">
+  <div class="row mb-2">
+    <div class="col-1">
+      <img class=" rounded " style="width: 50px; height: 50px;" src="/assets/img/jajan.png"/>     
+    </div>
+    <div class="col-1">
+      <img class=" rounded " style="width: 50px; height: 50px;" src="/assets/img/jajan.png"/>     
+    </div>
+    <div class="col-1">
+      <img class=" rounded " style="width: 50px; height: 50px;" src="/assets/img/jajan.png"/>     
+    </div>
+    <div class="col-1">
+      <img class=" rounded " style="width: 50px; height: 50px;" src="/assets/img/jajan.png"/>     
+    </div>
+  </div>
+</div>
+       
+       
+      </div>
+    </div>
+    <!--Profil toko-->
+    <div class="container px-4">
+      <div class="card mt-1 mb-6 border-0" style="background-color:#F5F5F5 ;">
+        <div class="d-flex align-items-center">
+          <span class="m-3 badge rounded-circle " style="width: 130px; height: 135px; background-color: #0095da;"><i class="bi bi-person-circle align-middle fa-10x bottom-0"></i></span>
+          <div class=" m-3 w-100">
+            <h4 class="mb-0 mt-0">Toko Makmur</h4>                 
+                 <p class="text-muted">Indonesia</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <!--DEskripsi-->
+    <div class="container px-4">
+      <div class="card mt-3 mb-4 border-0" style="background-color:#F5F5F5 ;">
+       <div class= "m-3 ">
+            <h6 class="mb-2 mt-0">Spesifikasi Produk</h6>                 
+                 <p class="text-muted h-auto ">BUDAYAKAN MEMBACA DAN FAHAMI YA ^_^ ORDER MINIMAL 500 PCS WAJIB Ya BISA 
+                  CAMPUR DESAIN Contoh 1 : Order 1000 pcs = 2 Desain masing - masing 500pcs Contoh 2 : 
+                  Order 3000 pcs = 3 Desain masing - masing 1000pcs Contoh 3 : Order 3000 pcs = 6 Desain 
+                  masing - masing 500pcs SPESIFIKASI KEMASAN - Kemasan sekali sobek TANPA ZIPLOCK -
+                   Kemasan dengan ZIPPER bisa
+                   dibuka dan ditutup kembali - Kemasan Tebuat dari Bahan Paper Metallize - Jenis Finishing/ Laminasi : 
+                  - Doff = Menyerap Cahaya - Glossy = Memantulkan Cahaya - Berat 1 Kemasan : +- 15 gr PENTING!!! Cara order : 1. Konsultasikan dahulu kemasan yang kamu butuhkan 2. Jika sudah mempunyai desain jadi bisa langsung kirim dengan format yang dianjurka, seperti (Corel/Adobe Illustrator/Photoshop/PDF) NOTE : Untuk Format JPEG atau PNG harus format warna CMYK ya ka dan resolusi tinggi (Kualitas Gambar Tajam) 3. Setelah desain dikirim silahkan order via shopee untuk memulai produksi 4. Estimasi waktu pengerjaan 7 - 13 hari kerja 5. Jasa Pengiriman hanya jasa yang tertera di shopee
+                  </p>
+          </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+  <!-- Footer -->
+  <footer id="footer" class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Links  -->
+    <section class="mt-5">
+      <div class="container text-center text-md-start pt-4"></div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center text-light p-4" style="background-color:  #0095da">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://umkm.com/">umkm.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  </body>
+</html>
