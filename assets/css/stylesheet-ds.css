@@ -26,3 +26,12 @@ body {
   width: 100%;
   max-height: 350px !important;
 }
+/*Profil User*/
+.custome-side {
+  position: fixed;
+}
+.bt-out {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1em;
+}
